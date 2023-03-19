@@ -72,7 +72,7 @@ class Square extends Polygon {
     super(length, length);
 
     // 注意：在派生的类中，在你可以使用 'this' 之前，必须先调用 super()。
-    // 现在可以使用 'this' 了，忽略 'this' 将导致引用错误（ReferenceError）
+    // 现在可以使用 'this' 了，忽略这一点将导致引用错误（ReferenceError）
     this.name = 'Square';
   }
 }
